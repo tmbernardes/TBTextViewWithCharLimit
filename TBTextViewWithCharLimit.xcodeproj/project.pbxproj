@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A43A9AD81C57F0F6000D623F /* TBTextViewWithCharLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = A43A9AD71C57F0F6000D623F /* TBTextViewWithCharLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43A9ADF1C57F0F6000D623F /* TBTextViewWithCharLimit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43A9AD41C57F0F6000D623F /* TBTextViewWithCharLimit.framework */; };
+		A43A9AE41C57F0F6000D623F /* TBTextViewWithCharLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43A9AE31C57F0F6000D623F /* TBTextViewWithCharLimitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43A9AE01C57F0F6000D623F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43A9ACB1C57F0F6000D623F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43A9AD31C57F0F6000D623F;
+			remoteInfo = TBTextViewWithCharLimit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A43A9AD41C57F0F6000D623F /* TBTextViewWithCharLimit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBTextViewWithCharLimit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43A9AD71C57F0F6000D623F /* TBTextViewWithCharLimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBTextViewWithCharLimit.h; sourceTree = "<group>"; };
+		A43A9AD91C57F0F6000D623F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43A9ADE1C57F0F6000D623F /* TBTextViewWithCharLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBTextViewWithCharLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43A9AE31C57F0F6000D623F /* TBTextViewWithCharLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTextViewWithCharLimitTests.m; sourceTree = "<group>"; };
+		A43A9AE51C57F0F6000D623F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43A9AD01C57F0F6000D623F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43A9ADB1C57F0F6000D623F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43A9ADF1C57F0F6000D623F /* TBTextViewWithCharLimit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A43A9ACA1C57F0F6000D623F = {
+			isa = PBXGroup;
+			children = (
+				A43A9AD61C57F0F6000D623F /* TBTextViewWithCharLimit */,
+				A43A9AE21C57F0F6000D623F /* TBTextViewWithCharLimitTests */,
+				A43A9AD51C57F0F6000D623F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A43A9AD51C57F0F6000D623F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43A9AD41C57F0F6000D623F /* TBTextViewWithCharLimit.framework */,
+				A43A9ADE1C57F0F6000D623F /* TBTextViewWithCharLimitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43A9AD61C57F0F6000D623F /* TBTextViewWithCharLimit */ = {
+			isa = PBXGroup;
+			children = (
+				A43A9AD71C57F0F6000D623F /* TBTextViewWithCharLimit.h */,
+				A43A9AD91C57F0F6000D623F /* Info.plist */,
+			);
+			path = TBTextViewWithCharLimit;
+			sourceTree = "<group>";
+		};
+		A43A9AE21C57F0F6000D623F /* TBTextViewWithCharLimitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43A9AE31C57F0F6000D623F /* TBTextViewWithCharLimitTests.m */,
+				A43A9AE51C57F0F6000D623F /* Info.plist */,
+			);
+			path = TBTextViewWithCharLimitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A43A9AD11C57F0F6000D623F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43A9AD81C57F0F6000D623F /* TBTextViewWithCharLimit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A43A9AD31C57F0F6000D623F /* TBTextViewWithCharLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43A9AE81C57F0F6000D623F /* Build configuration list for PBXNativeTarget "TBTextViewWithCharLimit" */;
+			buildPhases = (
+				A43A9ACF1C57F0F6000D623F /* Sources */,
+				A43A9AD01C57F0F6000D623F /* Frameworks */,
+				A43A9AD11C57F0F6000D623F /* Headers */,
+				A43A9AD21C57F0F6000D623F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBTextViewWithCharLimit;
+			productName = TBTextViewWithCharLimit;
+			productReference = A43A9AD41C57F0F6000D623F /* TBTextViewWithCharLimit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43A9ADD1C57F0F6000D623F /* TBTextViewWithCharLimitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43A9AEB1C57F0F6000D623F /* Build configuration list for PBXNativeTarget "TBTextViewWithCharLimitTests" */;
+			buildPhases = (
+				A43A9ADA1C57F0F6000D623F /* Sources */,
+				A43A9ADB1C57F0F6000D623F /* Frameworks */,
+				A43A9ADC1C57F0F6000D623F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43A9AE11C57F0F6000D623F /* PBXTargetDependency */,
+			);
+			name = TBTextViewWithCharLimitTests;
+			productName = TBTextViewWithCharLimitTests;
+			productReference = A43A9ADE1C57F0F6000D623F /* TBTextViewWithCharLimitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43A9ACB1C57F0F6000D623F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TMB;
+				TargetAttributes = {
+					A43A9AD31C57F0F6000D623F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A43A9ADD1C57F0F6000D623F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A43A9ACE1C57F0F6000D623F /* Build configuration list for PBXProject "TBTextViewWithCharLimit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A43A9ACA1C57F0F6000D623F;
+			productRefGroup = A43A9AD51C57F0F6000D623F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43A9AD31C57F0F6000D623F /* TBTextViewWithCharLimit */,
+				A43A9ADD1C57F0F6000D623F /* TBTextViewWithCharLimitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43A9AD21C57F0F6000D623F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43A9ADC1C57F0F6000D623F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43A9ACF1C57F0F6000D623F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43A9ADA1C57F0F6000D623F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43A9AE41C57F0F6000D623F /* TBTextViewWithCharLimitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43A9AE11C57F0F6000D623F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43A9AD31C57F0F6000D623F /* TBTextViewWithCharLimit */;
+			targetProxy = A43A9AE01C57F0F6000D623F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A43A9AE61C57F0F6000D623F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A43A9AE71C57F0F6000D623F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A43A9AE91C57F0F6000D623F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TBTextViewWithCharLimit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TMB.TBTextViewWithCharLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A43A9AEA1C57F0F6000D623F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TBTextViewWithCharLimit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TMB.TBTextViewWithCharLimit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A43A9AEC1C57F0F6000D623F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TBTextViewWithCharLimitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TMB.TBTextViewWithCharLimitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A43A9AED1C57F0F6000D623F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TBTextViewWithCharLimitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TMB.TBTextViewWithCharLimitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43A9ACE1C57F0F6000D623F /* Build configuration list for PBXProject "TBTextViewWithCharLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43A9AE61C57F0F6000D623F /* Debug */,
+				A43A9AE71C57F0F6000D623F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43A9AE81C57F0F6000D623F /* Build configuration list for PBXNativeTarget "TBTextViewWithCharLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43A9AE91C57F0F6000D623F /* Debug */,
+				A43A9AEA1C57F0F6000D623F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A43A9AEB1C57F0F6000D623F /* Build configuration list for PBXNativeTarget "TBTextViewWithCharLimitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43A9AEC1C57F0F6000D623F /* Debug */,
+				A43A9AED1C57F0F6000D623F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43A9ACB1C57F0F6000D623F /* Project object */;
+}
