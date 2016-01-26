@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A43A9AD31C57F0F6000D623F"
+               BuildableName = "TBTextViewWithCharLimit.framework"
+               BlueprintName = "TBTextViewWithCharLimit"
+               ReferencedContainer = "container:TBTextViewWithCharLimit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A43A9ADD1C57F0F6000D623F"
+               BuildableName = "TBTextViewWithCharLimitTests.xctest"
+               BlueprintName = "TBTextViewWithCharLimitTests"
+               ReferencedContainer = "container:TBTextViewWithCharLimit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A43A9AD31C57F0F6000D623F"
+            BuildableName = "TBTextViewWithCharLimit.framework"
+            BlueprintName = "TBTextViewWithCharLimit"
+            ReferencedContainer = "container:TBTextViewWithCharLimit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A43A9AD31C57F0F6000D623F"
+            BuildableName = "TBTextViewWithCharLimit.framework"
+            BlueprintName = "TBTextViewWithCharLimit"
+            ReferencedContainer = "container:TBTextViewWithCharLimit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A43A9AD31C57F0F6000D623F"
+            BuildableName = "TBTextViewWithCharLimit.framework"
+            BlueprintName = "TBTextViewWithCharLimit"
+            ReferencedContainer = "container:TBTextViewWithCharLimit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

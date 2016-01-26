@@ -10,6 +10,8 @@
 		A43A9AD81C57F0F6000D623F /* TBTextViewWithCharLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = A43A9AD71C57F0F6000D623F /* TBTextViewWithCharLimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A43A9ADF1C57F0F6000D623F /* TBTextViewWithCharLimit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43A9AD41C57F0F6000D623F /* TBTextViewWithCharLimit.framework */; };
 		A43A9AE41C57F0F6000D623F /* TBTextViewWithCharLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43A9AE31C57F0F6000D623F /* TBTextViewWithCharLimitTests.m */; };
+		A4E872981C57F19500CE852E /* TextViewWithCharLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E872961C57F19500CE852E /* TextViewWithCharLimit.h */; };
+		A4E872991C57F19500CE852E /* TextViewWithCharLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E872971C57F19500CE852E /* TextViewWithCharLimit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A43A9ADE1C57F0F6000D623F /* TBTextViewWithCharLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBTextViewWithCharLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43A9AE31C57F0F6000D623F /* TBTextViewWithCharLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBTextViewWithCharLimitTests.m; sourceTree = "<group>"; };
 		A43A9AE51C57F0F6000D623F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E872961C57F19500CE852E /* TextViewWithCharLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewWithCharLimit.h; sourceTree = "<group>"; };
+		A4E872971C57F19500CE852E /* TextViewWithCharLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewWithCharLimit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		A43A9AD61C57F0F6000D623F /* TBTextViewWithCharLimit */ = {
 			isa = PBXGroup;
 			children = (
+				A4E872951C57F17300CE852E /* Views */,
 				A43A9AD71C57F0F6000D623F /* TBTextViewWithCharLimit.h */,
 				A43A9AD91C57F0F6000D623F /* Info.plist */,
 			);
@@ -86,6 +91,15 @@
 			path = TBTextViewWithCharLimitTests;
 			sourceTree = "<group>";
 		};
+		A4E872951C57F17300CE852E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4E872961C57F19500CE852E /* TextViewWithCharLimit.h */,
+				A4E872971C57F19500CE852E /* TextViewWithCharLimit.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E872981C57F19500CE852E /* TextViewWithCharLimit.h in Headers */,
 				A43A9AD81C57F0F6000D623F /* TBTextViewWithCharLimit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E872991C57F19500CE852E /* TextViewWithCharLimit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +390,7 @@
 				A43A9AEA1C57F0F6000D623F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A43A9AEB1C57F0F6000D623F /* Build configuration list for PBXNativeTarget "TBTextViewWithCharLimitTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +399,7 @@
 				A43A9AED1C57F0F6000D623F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
