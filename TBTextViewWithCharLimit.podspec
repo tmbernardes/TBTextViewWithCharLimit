@@ -19,7 +19,7 @@ s.author = { "Thiago Bernardes" => "tmb0710@gmail.com" }
 # For example,
 # s.author = { "Joshua Greene" => "jrg.developer@gmail.com" }
 
-spec.screenshots  = "https://raw.githubusercontent.com/thiagotmb/TBTextViewWithCharLimit/master/Screenshots/0.png", "https://raw.githubusercontent.com/thiagotmb/TBTextViewWithCharLimit/master/Screenshots/1.png" , "https://raw.githubusercontent.com/thiagotmb/TBTextViewWithCharLimit/master/Screenshots/2.png"
+s.screenshots  = ["https://raw.githubusercontent.com/thiagotmb/TBTextViewWithCharLimit/master/Screenshots/0.png", "https://raw.githubusercontent.com/thiagotmb/TBTextViewWithCharLimit/master/Screenshots/1.png" , "https://raw.githubusercontent.com/thiagotmb/TBTextViewWithCharLimit/master/Screenshots/2.png"]
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
